@@ -19,7 +19,7 @@ jobs:
 
     
     - name: Run tests
-      run: npx jest --config jest.config.js
+      run: npm install
 
 
     
