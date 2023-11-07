@@ -4,7 +4,7 @@ test('Contatenar dos strings', () =>{
 });
     
 test('Lanza un error si alguno de los argumentos no es una cadena', () => {
-    expect(() => concatenateStrings'sapo', 145)).toThrowError(
+    expect(() => concatenateStrings('sapo', 145)).toThrowError(
       'Ambos argumentos deben ser cadenas de texto'
     );
   });  
